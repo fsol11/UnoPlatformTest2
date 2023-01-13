@@ -11,8 +11,9 @@
                 <!-- Add resource dictionaries here -->
 
                 <!-- Load Material Color Palette with optional ColorPaletteOverrideSource -->
-                <MaterialColors xmlns="using:Uno.Material" ColorPaletteOverrideSource="ms-appx:///ColorPaletteOverride.xaml" />
-
+                <!--<MaterialColors xmlns="using:Uno.Material" ColorPaletteOverrideSource="ms-appx:///ColorPaletteOverride.xaml" />-->
+                <MaterialColors xmlns="using:Uno.Material" OverrideSource="ms-appx:///ColorPaletteOverride.xaml" />
+                
                 <!-- Load the Material control resources -->
                 <MaterialResources xmlns="using:Uno.Material" />
                 
